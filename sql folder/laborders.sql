@@ -6,10 +6,10 @@ CREATE TABLE LabOrders (
     OrderStatus Varchar(50),
     Notes TEXT,
     Foreign Key (PatientID)
-    REFERENCES patients(PatientID)
+    REFERENCES Patients(PatientID)
 );
 
-INSERT INTO labOrders (PatientID, TestType, OrderDate, OrderStatus, Notes)
+INSERT INTO LabOrders (PatientID, TestType, OrderDate, OrderStatus, Notes)
 Values
 (1, 'Complete Blood Count (CBC)', '2024-09-01', 'Completed', 'Normal levels of all blood components.'),
 (2, 'Lipid Panel', '2024-09-02', 'Pending', 'Awaiting cholesterol and triglyceride results.'),
