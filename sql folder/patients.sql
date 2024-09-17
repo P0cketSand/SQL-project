@@ -7,7 +7,7 @@ CREATE TABLE Patients (
     Address Varchar(255)
 );
 
-INSERT INTO patients (PatientID, FirstName, LastName, DOB, Gender, Address)
+INSERT INTO Patients (PatientID, FirstName, LastName, DOB, Gender, Address)
 Values
 (1, 'Achilles', 'Peleus', '1990-01-15', 'Male', '12 Trojan Ave, Troy, Greece'),
 (2, 'Athena', 'Metis', '1988-05-11', 'Female', '56 Parthenon St, Athens, Greece'),
