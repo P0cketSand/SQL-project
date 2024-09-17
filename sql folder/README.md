@@ -1,0 +1,2 @@
+"# SQL-project" 
+Welcome to my Simple SQL Project! This is a beginner-level project created to help me learn and practice SQL. The goal of this project is to understand basic SQL commands and database management concepts. I am using it to learn Github too.

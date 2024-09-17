@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #96c000;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #96c000; /* Default background color */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Default shadow */
+}
+
+.pink-shadow {
+    background-color: #e35fa1; /* Background color for 'Female' */
+}
+
+.blue-shadow {
+    background-color: #6069cd; /* Background color for 'Male' */
+}
+
+button, select, input {
+    margin: 5px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
